@@ -1,0 +1,33 @@
+#bold{
+    font-size: large;
+    font-weight: bold;
+}
+
+.small#bolder
+{
+    font-weight: bolder;
+}
+.confirm 
+{
+    background-color: green;
+    font-size: large;
+    color: aliceblue;
+    border: ;
+}
+.cancel 
+{
+    font-size: large;
+}
+
+.parent 
+{
+    padding-top: 10px;
+    font-weight: 100px;
+}
+.child
+{
+    font-weight: 100;
+}
+.child.smaller{
+    font-weight: bold;
+}

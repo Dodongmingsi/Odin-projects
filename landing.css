@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.header-container{
+    background-color: #1f2937;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1200px;
+    padding: 10px;
+    align-items: center;
+
+}
+.logo{
+    color: white;
+    font-size: 24px;
+    
+}
+.link{
+    display: flex;
+    justify-content: space-evenly;
+    gap:20px ;
+    margin: auto;
+    margin-right: 0;
+    font-size: 18px;
+    color: aliceblue;
+  
+}
+.container-two{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+    width: fit-content;
+    border: 1px solid white;
+    color: white;
+}
+.website{
+    font-size: 48px;
+    color:white;
+    
+}
+.signup{
+    
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    padding-top: 2px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+    background-color: rgb(0, 149, 255);
+}
+
+.random{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.foods{
+    
+    align-self: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    
+    
+}
+.images{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    text-align: center;
+}
+.container-3{
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container-4{
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+.blue{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(63, 164, 247);
+    width: 800px;
+    height: 100px;
+   border-radius: 10px;
+   padding:  20px;
+}
+.call-to{
+    color: white;
+    font-size: 24px;
+}
+
+.call-to-small{
+    font-size: 18px;
+}
+.signup-2{
+    font-size: 20px;
+    border: 3px solid white;
+    width: 80px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.container-5{
+    display: flex;
+    background-color: #1f2937;
+    align-self: center;
+    justify-content: center;
+    height: 200px;
+    padding: 50px;
+    color:yellow;
+}

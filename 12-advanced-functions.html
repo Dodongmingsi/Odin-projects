@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced functions</title>
+</head>
+<body>
+    <div class="list"></div>
+    <script> 
+
+    let list_of_all ='';
+    let list = document.querySelector('.list');
+    
+    let work=
+    [
+        'make dishes',
+        'make dinner',
+        'wash clothes'
+    ]
+  
+    work.forEach(function(value,index){
+        if(value=='make dishes'){
+            return;// same as continue
+        }
+        list_of_all+=`<div> ${value} </div> <div> ${index} </div>`
+    });
+        list.innerHTML=list_of_all;
+   
+
+    </script>
+</body>
+</html>

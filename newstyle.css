@@ -1,0 +1,27 @@
+.first
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    background-color: hsl(339, 77%, 63%);
+}
+
+#second {
+    font-size: 36px;
+    color: blue;
+}
+#third {
+    background-color: hsl(339, 77% , 90%);
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#fourth {
+
+        background-color: rgb(142, 247, 142);
+        font-weight: bold;
+}
+
+#fifth 
+{
+    background-color: rgb(242, 190, 205);
+}

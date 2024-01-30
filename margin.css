@@ -1,0 +1,35 @@
+.div-one,.div-three{
+
+    padding: 32px;
+
+}
+
+.div-two {
+
+    margin-bottom: 48px;
+    border: 2px solid red;
+    background-color: lightblue;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-one
+{
+    border: 5px solid blue;
+    margin: 12px;
+    background-color:pink;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.div-three {
+
+    border: 5px solid red;
+    margin-left: auto;
+    width: 200px;
+    margin-right: 510px;
+   
+}
